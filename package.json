@@ -1,18 +1,39 @@
 {
   "name": "gitmon",
   "version": "1.0.0",
-  "description": "CLI that helps you tracking your project cost based on your configuration",
+  "description": "Utility CLI that analyzes your project's commits and estimates your project's costs (your salary) according to your configurations. Useful for freelancers.",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
   },
+  "homepage": "https://github.com/luisbraganca/gitmon",
   "bin": {
     "gitmon": "./bin/index.js",
     "gitmon-details": "./bin/details.js",
     "gitmon-setup": "./bin/setup.js"
   },
-  "keywords": [],
-  "author": "",
+  "bugs": {
+    "email": "luisbraganca@protonmail.com",
+    "url" : "https://github.com/luisbraganca/gitmon/issues"
+  },
+  "keywords": [
+    "git",
+    "cli",
+    "project",
+    "commit",
+    "costs",
+    "salary",
+    "freelancer"
+  ],
+  "author": {
+    "name" : "Luís Bragança",
+    "email" : "luisbraganca@protonmail.com",
+    "url" : "https://luisbraganca.pt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luisbraganca/gitmon.git"
+  },
   "license": "ISC",
   "dependencies": {
     "prompts": "^2.4.2",
