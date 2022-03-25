@@ -1,0 +1,21 @@
+{
+  "name": "gitmon",
+  "version": "1.0.0",
+  "description": "CLI that helps you tracking your project cost based on your configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "bin": {
+    "gitmon": "./bin/index.js",
+    "gitmon-details": "./bin/details.js",
+    "gitmon-setup": "./bin/setup.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompts": "^2.4.2",
+    "simple-git": "^3.4.0"
+  }
+}
